@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: hsl(0, 0%, 83%);
+    font-size: 1.6rem;
+}
+
+main {
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 0%, rgba(42,42,42,1) 100%);
+    margin: 4rem 6rem 4rem 6rem;
+    border-radius: 4rem;
+}
+
+h1 {
+    font-family: 'Spectral', serif;
+}
+
+h3, a {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    color: rgba(42,42,42,1);
+    display: flex;
+    align-items: center;
+    padding: 4rem;
+}
+
+header h1 {
+    margin-left: 5rem;
+    margin-right: 30rem;
+}
+
+
+header nav a {
+    margin-right: 2rem;
+    color: rgba(42,42,42,1);
+    font-size: large;
+    transition: .3s;
+}
+
+header nav a:hover {
+    color: rgb(126, 126, 126);
+}
+
+.link {
+    margin-right: 34rem;
+    margin-left: 27rem;
+}
+
+.link a {
+    transition: .3s;
+    font-size: 3rem;
+    color: rgba(42,42,42,1);
+    margin-right: 2rem;
+    text-decoration: none;
+} 
+
+.link a:hover {
+    color: rgb(126, 126, 126);
+}
+
+
+main {
+    text-align: center;
+    color: rgb(221, 221, 221);  
+}
+
+img {
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+    height: 40rem;
+    border-radius: 8rem;
+}
+
+footer {
+    font-size: medium;
+    text-align: center;
+    margin-bottom: 6rem;
+    color: rgba(42,42,42,1);
+}
+
+footer p {
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+footer a {
+    color: black;
+}
+
+#vibra {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid hsl(0, 0%, 83%);
+}
+
+#cosm {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid hsl(0, 0%, 83%);
+}
+
+#mel {
+    padding-top: 4rem;
+}
+
+
+
+
+@media(max-width: 800px) {
+
+
+    header h1 {
+        margin-right: 1rem;
+        margin-left: 0;
+        font-size: 2rem;
+    }
+
+    .link {
+        margin-left: 6rem;
+        margin-right: 5rem;
+    }
+
+    img {
+        margin-top: 2rem;
+        margin-bottom: 8rem;
+        height: 30rem;
+        border-radius: 8rem;
+    }
+
+    footer {
+        font-size: 1.5rem;
+    }
+
+    main {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+
+
+}
